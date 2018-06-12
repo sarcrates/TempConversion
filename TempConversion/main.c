@@ -8,8 +8,12 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+int main ()
+{
+    float fahr, cel;
+    printf("Enter in C:\n");
+    scanf("%f", &cel);
+    fahr = (1.8*cel)+32;
+    printf("%fº C is %0.1fº F\n", cel, fahr);
+    
 }
